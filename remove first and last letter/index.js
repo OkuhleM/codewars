@@ -3,4 +3,5 @@ function removeChar(str) {
   let res = "";
   for (let i = 1; i < array.length - 1; i++) res += array[i];
   return res;
+  console.log(res)
 }
