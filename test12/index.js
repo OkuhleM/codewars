@@ -1,12 +1,16 @@
 const names = ["Jake", "Jesse","Martin","Trey","Chris"];
 
-const replaceWord = (array,position,names) => {
+const replaceWord = (array,position,name) => {
 
-    const sortedArray = array.sort((a,b)=> a - b)
-    const splicedArray = sortedArray.splice(1,5,names,"jena")
-   
-   
+   array[position -1] = name
+   return array
 
-    return splicedArray[0];
+ 
 }
-console.log(replaceWord(names,4,"Rob"));
+console.log(replaceWord(names,2,"Rob"));
+
+// const names = ['thato' , 'sbu' , 'mark']
+// const replaceWord = (list , position , name) => {
+//   list[position - 1] = name
+//   return list 
+// }
