@@ -6,7 +6,7 @@ const longestAndLowestWords = (string) => {
 
     const sortedString = splittedString.sort((a,b)=> a.length - b.length);
   
-    return sortedString[sortedString.length-1]
+    return sortedString[sortedString.length-1] + " " + sortedString[0]
 
 }
 
