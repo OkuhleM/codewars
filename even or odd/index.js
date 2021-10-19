@@ -7,8 +7,9 @@
     
 //   }
 
-function isPalindrome(x) {
-  console.log(x);
-  return true;
-}
-isPalindrome('car')
+// function isPalindrome(x) {
+//   console.log(x);
+//   return true;
+// }
+// isPalindrome('car')
+
