@@ -4,9 +4,7 @@
 
 
 function multiplyAndReturnOddNumbers(numberSet) {
-  // console.log( "numberSet:",numberSet);
-  // const newArr = numberSet * 3;
-  // console.log("newArr",newArr)
+ 
   const newArr = [];
   for (let i = 0; i < numberSet.length; i++) {
     const num = numberSet[i] * 3;
@@ -16,9 +14,7 @@ function multiplyAndReturnOddNumbers(numberSet) {
   return newArr
 }
 
-// for (let i = 0; i < myArray.length; i++) {
-//   myArray[i] = myArray[i] * 3;
-// }
+
 
 
 multiplyAndReturnOddNumbers([1, 2, 3, 4, 5]);

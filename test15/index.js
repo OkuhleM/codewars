@@ -1,6 +1,7 @@
-const Marks = [10,10,10,10,10];
+const Marks = [20,10,10,10,10,1];
+overAllMarks = 30
 
-const getAverage = array => {
+const getAverage = (array ,overAllMarks)=> {
    
     // console.log(array)
     // const sortArray = totalMarks.sort((a,b) => a - b);
@@ -8,6 +9,7 @@ const getAverage = array => {
     let sortArray = array.sort((a,b) => a - b);
     let totalMarks = 0; 
     let results = [];
+    
     for (var i in sortArray){
        if (sortArray + sortArray[i])
         totalMarks = totalMarks + sortArray[i]
@@ -15,6 +17,6 @@ const getAverage = array => {
          
     
     }
-    return totalMarks / 5 / 10 * 100
+    return totalMarks/array.length/overAllMarks*100
 }
-console.log(getAverage(Marks))
+console.log(getAverage(Marks, overAllMarks))
