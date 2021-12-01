@@ -28,19 +28,29 @@
 //   }
 
 //   console.log(positiveSum(numbers))
-const numbers = [3,9,19,4,6];
+// const numbers = [3,9,19,4,6];
 
-function twoHighest(arr) {
-  let results = [];
-  let sortArray = arr.sort((a,b)=>a - b);
-  console.log(sortArray)
-  for(let i in sortArray){
-    if(sortArray[i]>arr[i])
-      results = sortArray >= sortArray[i]
+// function twoHighest(arr) {
+//   let results = [];
+//   let sortArray = arr.sort((a,b)=>a - b);
+//   console.log(sortArray)
+//   for(let i in sortArray){
+//     if(sortArray[i]>arr[i])
+//       results = sortArray >= sortArray[i]
       
       
-  }
-  return results
+//   }
+//   return results
   
+// }
+// console.log(twoHighest(numbers))
+values = [2,4,8]
+function doubleInteger(arr) {
+  const empty = [];
+ for(var i in arr){
+  //  if(arr[i] * 2)
+empty.push(arr[i] * 2)
+ }
+ return empty
 }
-console.log(twoHighest(numbers))
+console.log(doubleInteger(values))

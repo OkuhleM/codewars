@@ -30,4 +30,4 @@ const halfAndReturn = (array) => {
 
     return half
 }
-console.log(halfAndReturn(values))
+console.log(halfAndReturn(values))12345ry67u89ot5f4req  qw2d3e4rt5y67upl;['hy67we4']

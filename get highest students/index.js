@@ -4,9 +4,10 @@ const names = [{name: 'Troy', mark:100}, {name: 'Zed', mark: 120}, {name: 'Ashle
 const getHighestStudents = (students) => {
 
     // const emptyArrayToPushResults = [];
-    const highest = {marks: 0}
+    var highest = {marks: 0}
 for(var i in students){
     if(names[i].mark > highest.marks)
+   
      highest = names[i]
     // emptyArrayToPushResults.push(highest)
     }
